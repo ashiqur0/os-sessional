@@ -8,7 +8,7 @@ int main() {
     // 0 = free, 1 = allocated
     vector<int> diskBlocks(TOTAL_BLOCKS, 0);
 
-    cout << "\n=== Contiguous File Allocation Simulation ===\n";
+    cout << "\n=== Contiguous/ sequential File Allocation Simulation ===\n";
 
     while (true) {
 
